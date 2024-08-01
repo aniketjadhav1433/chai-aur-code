@@ -1,0 +1,47 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+label{
+    text-transform: capitalize;
+}
+
+input{
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+.butt{
+    font-size: 1.2rem;
+}
+
+h2{
+    text-align: center;
+}
